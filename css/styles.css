@@ -5,7 +5,7 @@
 body{
     display: flex;
     flex-direction: column;
-    font-family: "hero";
+    font-family: 'Barlow Semi Condensed', sans-serif;
 }
 
 header{
@@ -35,19 +35,75 @@ a{
     text-decoration: none;
 }
 
+a:visited{
+    color: white;
+}
 
 .info-img{
     display: flex;
     justify-content: center;
     background-color: #1f2937;
     padding: 30px;
+    width: 100vw;
+
     
 }
 
-.info-tittle{
+.container-info-img{
+   
+    display: flex;
+    margin: 70px;
+
+    
+    
+}
+
+.info-title{
     display: flex;
     flex-direction: column;
+    margin: 50px;
+    width: 40vw;
+    
 }
+
+.info-title .main-h1 h1{
+    
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.main-h1{
+    align-self: flex-start;
+}
+
+.info-title button{
+    width: 90px;
+    flex-basis: 30px;
+    color: #f9faf8;
+    background-color: #3882f6;
+    border-radius: 10px;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    
+
+}
+
+.info-title p{
+    color: #E5E7EB;
+    font-size: 18px;
+
+}
+
+.main-img{
+    height: 250px;
+    width: 50vw;
+    overflow: hidden;
+    padding: 25px;
+    margin: 20px;
+}
+
 
 .logo{
     width: 52px;
@@ -65,3 +121,147 @@ a{
     height: 120px;
 }
 
+.main-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-two{
+    margin: 20px;
+    font-size: 36px;
+    color: #1f2937;
+}
+
+.cards{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    padding: 35px;
+
+    
+}
+
+.card{
+    width: 200px;
+    height: 600px;
+    overflow: hidden;
+    margin: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.card img{
+    width: 150px;
+    height: 250px;
+    object-fit: cover;
+    align-self: center;
+    margin: 0;
+    border-radius: 20px;
+    border: #3882f6 solid 2px;
+    box-shadow: 10px 10px 5px #dedede;
+
+}
+
+.quote{
+    background-color: #E5E7EB;
+    height: 140px;
+    padding: 90px;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote p{
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    padding-left: 70px;
+}
+
+.quote span{
+    align-self: flex-end;
+    font-size: 20px;
+}
+
+.card p{
+    margin: 0;
+    text-align: center;
+    font-weight: 300;
+    margin-top: 10px;
+}
+
+.card h3{
+    margin: 10px;
+    text-align: center;
+    color: #1f2937;
+}
+
+.singup{
+    height: 190px;
+    padding: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+.container-singup{
+    background-color: #3882f6;
+    display: flex;
+    padding: 60px;
+    width: 70vw;
+    border-radius: 8px;
+    
+}
+
+.title-text{
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 70px;
+    
+}
+
+.title-text h3{
+    color: white;
+    font-size: 30px;
+    
+}
+
+.title-text p{
+    color: white;
+    font-weight: 300;
+}
+
+.button-singup{
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    margin-left: 70px;
+}
+
+.button-singup button{
+    width: 100px;
+
+    height: 50px;
+    align-self: flex-end;
+    border: 2px solid white;
+    background-color: #3882f6;
+    color: white;
+    font-weight: 600;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.container-footer{
+    height: 100px;
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+
+}
+
+.footer-span{
+    color: white;
+}
